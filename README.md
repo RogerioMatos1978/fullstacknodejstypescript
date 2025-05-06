@@ -4,6 +4,27 @@
 
 ## Como rodar o projeto baixado
 
+Istalar as dependencias indicadas pelo arquivo package.json
+
+```
+npm install
+```
+
+Compilar os arquivos TypeScript. -watch: O Compilador fica monitorando os arquivos .ts do projeto. Sempre que o arquivo
+é alterado, o tsc recompila automaticamente para gerar os arquivos .js correspondentes.
+```
+npx tsc -watch
+```
+
+Compilar os arquvios TypeScript
+```
+npx tsc
+```
+
+Executar o arquivo JavaScript compilado
+```
+node dsit/index.js
+```
 
 ## Sequencia para criar o projeto
 
