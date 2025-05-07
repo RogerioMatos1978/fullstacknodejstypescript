@@ -17,4 +17,7 @@ console.log(`Cursos: ${courses}`);
 // Criar variavel do tipo array  do tipo number
 const amout = [1, 2, 3, 4, 6, 10];
 console.log(`Numeros: ${amout}`);
+// Criar variavel do tipo array  do tipo number
+const numerosArray = [1, 2, 3, 4, 6, 10];
+console.log(`Numeros: ${numerosArray}`);
 // Criar variavel do tipo "tuple" array com tipos diferentes
