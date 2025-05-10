@@ -20,3 +20,4 @@ console.log(`Numeros: ${amout}`);
 const numerosArray: number[] = [1,2,3,4,6,10];
 console.log(`Numeros: ${numerosArray}`);
 // Criar variavel do tipo "tuple" array com tipos diferentes
+
