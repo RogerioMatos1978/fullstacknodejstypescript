@@ -44,7 +44,22 @@ data = 10; // Atribuir um valor do tipo número
 console.log(`Valor atribuido a variavel data do tipo "any": ${data}`);
 data = "Rogerio Matos.";
 console.log(`O Valor atribuido a variavel data do tipo "any" foi texo: ${data}`);
-
+// Criar variavel do tipo null e undefined
+let variavelNull: null = null;
+let variavelUndefined: undefined = undefined;
+console.log(`Variavel do tipo null: ${variavelNull}`);
+console.log(`Variavel do tipo undefined: ${variavelUndefined}`);
+// Criar variavel do tipo objeto
+interface Cliente{
+    name: string;
+    quantidade: number;
+}
+let cliente: Cliente ={
+    name: "Rogerio Matos",
+    quantidade: 10
+}
+console.log(`Nome do Cliente: ${cliente.name}`);
+console.log(`Quantidade de compras do Cliente: ${cliente.quantidade}`);
 
 
 
