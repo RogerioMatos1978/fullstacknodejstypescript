@@ -20,4 +20,31 @@ console.log(`Numeros: ${amout}`);
 const numerosArray: number[] = [1,2,3,4,6,10];
 console.log(`Numeros: ${numerosArray}`);
 // Criar variavel do tipo "tuple" array com tipos diferentes
+var person: [string, number, boolean];
+person = ["Rogerio", 120, true];
+console.log(`Usuário: ${person[0]}`);
+console.log(`Velocidade: ${person[1]}`);
+console.log(`Usuário: ${person[2]}`);
+// Criar variavel do tipo enum. Representa um consjunto de valores nomerados.
+enum DiaDaSemana{
+    Domingo = 1,
+    Segunda,
+    Terça,
+    Quarta,
+    Quinta,
+    Sexta,
+    Sabado
+}
+let dia: DiaDaSemana;
+console.log(`Número que represnta domingo: ${DiaDaSemana.Domingo}`);
+console.log(`Número que represnta segunda: ${DiaDaSemana.Segunda}`);
+// Criar varivael do tipo any, atribuir qualquer tipo de valor para a variavel
+let data: any;
+data = 10; // Atribuir um valor do tipo número
+console.log(`Valor atribuido a variavel data do tipo "any": ${data}`);
+data = "Rogerio Matos.";
+console.log(`O Valor atribuido a variavel data do tipo "any" foi texo: ${data}`);
+
+
+
 
