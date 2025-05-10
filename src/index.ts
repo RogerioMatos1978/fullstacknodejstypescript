@@ -60,6 +60,10 @@ let cliente: Cliente ={
 }
 console.log(`Nome do Cliente: ${cliente.name}`);
 console.log(`Quantidade de compras do Cliente: ${cliente.quantidade}`);
-
+// Criar variavel utilizando union indicando um ou mais tipo
+const valorDoisTipos: string | boolean = true; 
+console.log(`Valor pode ser string ou boolean: ${valorDoisTipos}`);
+// const valorDoisTipos: string | boolean = "Rogerio Matos";
+// console.log(`Valor pode ser string ou boolean: ${valorDoisTipos}`);
 
 
